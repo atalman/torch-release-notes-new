@@ -49,15 +49,14 @@ PRs that ended up in the wrong worksheet, organized by which area they belong to
 - [inductor] Resolve relative TORCHINDUCTOR_CACHE_DIR ([#185723](https://github.com/pytorch/pytorch/pull/185723)) (from inductor; labeled `release notes: inductor (aoti)`)
 - Improve AOTI error for Python custom ops ([#186305](https://github.com/pytorch/pytorch/pull/186305)) (from inductor; labeled `release notes: inductor (aoti)`)
 - Fix AOTI CUDA device copy allocation ([#185634](https://github.com/pytorch/pytorch/pull/185634)) (from inductor; labeled `release notes: inductor (aoti)`)
+- [Stable C Shim] Add new/delete function for StableIValue ([#179421](https://github.com/pytorch/pytorch/pull/179421)) (from releng; labeled `release notes: inductor (aoti)`)
 
 ## dynamo
 - [Optimus] Add another batch linear anchor node ([#180477](https://github.com/pytorch/pytorch/pull/180477)) (from inductor; labeled `release notes: dynamo`)
 - [Optimus] Support detach method call (#180513) ([#180513](https://github.com/pytorch/pytorch/pull/180513)) (from inductor; labeled `release notes: dynamo`)
 - Fix FxGraphCache pickling of opaque types with cyclic references ([#180422](https://github.com/pytorch/pytorch/pull/180422)) (from inductor; labeled `release notes: dynamo`)
 - Handle missing Windows C++ compiler in shape guard fallback ([#185447](https://github.com/pytorch/pytorch/pull/185447)) (from inductor; labeled `release notes: dynamo`)
-
-## releng
-- [Inductor] Add batch-invariant accuracy mode for benchmark perf tests ([#180610](https://github.com/pytorch/pytorch/pull/180610)) (from inductor; labeled `release notes: releng`)
+- [cuteDSL] Remove cuda dependency in forked precompile subprocesses ([#184865](https://github.com/pytorch/pytorch/pull/184865)) (from releng; labeled `release notes: inductor`)
 
 ## composability
 - [inductor] Fix mix_order_reduction over-fusion via load count check ([#179494](https://github.com/pytorch/pytorch/pull/179494)) (from inductor; labeled `release notes: composability`)
